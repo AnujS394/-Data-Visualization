@@ -21,11 +21,7 @@ From quick exploratory plots to fully–interactive web apps, this repo showcase
 ## 🖼️ Gallery
 ![image](https://github.com/user-attachments/assets/ef372011-e9e7-48f6-9e46-fc05a75052fb)
 
-| Snapshot | Description |
-|----------|-------------|
-| ![heatmap](assets/corr_heatmap.png) | Correlation heat‑map with Seaborn |
-| ![map](assets/density_map.png) | Accident hotspot density map (Plotly Mapbox) |
-| ![dashboard](assets/streamlit_demo.gif) | Interactive dashboard built with Streamlit |
+
 
 *(Screenshots live in the **`assets/`** directory; replace with your own if filenames differ.)*
 
