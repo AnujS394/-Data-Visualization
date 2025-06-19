@@ -19,6 +19,7 @@ From quick exploratory plots to fully–interactive web apps, this repo showcase
 ---
 
 ## 🖼️ Gallery
+![image](https://github.com/user-attachments/assets/ef372011-e9e7-48f6-9e46-fc05a75052fb)
 
 | Snapshot | Description |
 |----------|-------------|
