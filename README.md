@@ -1,62 +1,54 @@
-# 📊 Data Visualization
+# ⚡ Electric Vehicle (EV) Sales Analysis Dashboard
 
-A curated collection of Python notebooks, scripts, and dashboards that turn raw data into clear, compelling stories.  
-From quick exploratory plots to fully–interactive web apps, this repo showcases multiple visualization libraries—**Matplotlib**, **Seaborn**, **Plotly Express**, and **Altair**—to highlight the strengths of each tool.
+This project visualizes electric vehicle (EV) adoption trends in the United States using **Tableau Public**. The dashboard offers interactive views into total vehicle counts, electric range, Clean Alternative Fuel Vehicle (CAFV) eligibility, and vehicle popularity across time and states.
 
-> **Goal:** Serve as a one‑stop reference (and template) for anyone who wants to learn or demo modern data‑viz techniques in Python.
-
----
-
-## ✨ Key Highlights
-
-| Category              | Libraries                    | What you’ll find                                     |
-|-----------------------|------------------------------|------------------------------------------------------|
-| **Exploratory (EDA)** | `pandas`, `matplotlib`, `seaborn` | Histograms, pair‑plots, correlation heat‑maps        |
-| **Storytelling**      | `plotly.express`, `altair`   | Interactive line / bar charts, drill‑down dashboards |
-| **Geospatial**        | `plotly.express`, `geopandas`| Choropleths, density mapbox heat‑maps                |
-| **Dashboards**        | `streamlit` (optional)       | One‑click web apps wrapping the notebooks            |
+> 📊 Built with Tableau Desktop Public Edition
 
 ---
 
-## 🖼️ Gallery
-![image](https://github.com/user-attachments/assets/ef372011-e9e7-48f6-9e46-fc05a75052fb)
+## 📍 Key Insights
 
-
-
-*(Screenshots live in the **`assets/`** directory; replace with your own if filenames differ.)*
-
----
-
-## 🗂️ Repository Layout
-├── notebooks/
-│ ├── 01_basic_eda.ipynb
-│ ├── 02_seaborn_tutorial.ipynb
-│ ├── 03_plotly_interactive.ipynb
-│ └── 04_geospatial_visuals.ipynb
-├── dashboards/
-│ └── streamlit_app.py
-├── data/ # (tiny sample CSVs; real data stays outside Git)
-├── assets/ # screenshots / GIFs
-├── requirements.txt
-└── README.md
-
-yaml
-Copy
-Edit
+- **Total Registered EVs:** 150,446  
+- **Battery Electric Vehicles (BEVs):** 1,16,771 (77.62%)  
+- **Plug-in Hybrid Electric Vehicles (PHEVs):** 33,675 (22.38%)  
+- **Average Electric Range:** 67.86 miles  
 
 ---
 
-## 🛠️ Quick Start
+## 📈 Dashboard Features
 
-```bash
-# 1. Clone
-git clone https://github.com/AnujS394/-Data-Visualization.git
-cd -Data-Visualization
+| Section                     | Description |
+|-----------------------------|-------------|
+| 🔹 **Sale Graph**            | Time-series view of total vehicle growth by year (2008–2025) |
+| 🔹 **Top Makes**             | Bar chart of the top 9 EV manufacturers by vehicle count (e.g., Tesla, Nissan, Chevrolet) |
+| 🔹 **CAFV Eligibility Pie**  | CAFV eligibility distribution (% eligible, % unknown, % not eligible) |
+| 🔹 **Model Sale Share**      | Table view of vehicle models by total count and share (e.g., Bolt EV, Fiat 500) |
+| 🔹 **State-wise Sales Map**  | Choropleth showing state-level EV distribution |
 
-# 2. Create environment & install deps
-python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
-pip install -r requirements.txt
+---
 
-# 3. Launch notebooks
-jupyter lab
+## 🧭 Technologies Used
+
+- 📊 **Tableau Public** for interactive visualization  
+- 📍 **Mapbox** for geographic mapping  
+- 📁 CSV/Excel data files used as Tableau data sources  
+
+---
+
+## 📸 Dashboard Preview
+
+![EV Dashboard Screenshot](db0c4556-46d9-4f45-8409-998344b4c05c.png)
+
+---
+
+## 🧪 Interactivity
+
+- Filter top `N` manufacturers using a dynamic slider  
+- Toggle total vehicle range  
+- Explore state-wise distribution of BEVs and PHEVs  
+- Hover to reveal detailed stats for each model/make  
+
+---
+
+## 📂 Files
+
