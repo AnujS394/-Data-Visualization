@@ -37,7 +37,8 @@ This project visualizes electric vehicle (EV) adoption trends in the United Stat
 
 ## 📸 Dashboard Preview
 
-![EV Dashboard Screenshot](db0c4556-46d9-4f45-8409-998344b4c05c.png)
+![Uploading image.png…]()
+
 
 ---
 
