@@ -31,3 +31,35 @@ From quick exploratory plots to fully–interactive web apps, this repo showcase
 ---
 
 ## 🗂️ Repository Layout
+├── notebooks/
+│ ├── 01_basic_eda.ipynb
+│ ├── 02_seaborn_tutorial.ipynb
+│ ├── 03_plotly_interactive.ipynb
+│ └── 04_geospatial_visuals.ipynb
+├── dashboards/
+│ └── streamlit_app.py
+├── data/ # (tiny sample CSVs; real data stays outside Git)
+├── assets/ # screenshots / GIFs
+├── requirements.txt
+└── README.md
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ Quick Start
+
+```bash
+# 1. Clone
+git clone https://github.com/AnujS394/-Data-Visualization.git
+cd -Data-Visualization
+
+# 2. Create environment & install deps
+python -m venv venv
+source venv/bin/activate          # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+# 3. Launch notebooks
+jupyter lab
